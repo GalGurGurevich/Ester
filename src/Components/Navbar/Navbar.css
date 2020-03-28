@@ -1,0 +1,23 @@
+.topnav {
+    text-align: initial;
+    box-sizing: border-box;
+    padding: 2em;
+    letter-spacing: 1.5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: #6700ee;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 8px;
+    transition-property: background-color color;
+    transition-duration: 0.4s;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #390db1;
+    color: white;
+}

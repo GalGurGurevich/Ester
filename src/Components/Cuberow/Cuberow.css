@@ -1,0 +1,36 @@
+.cubeRow {
+    display: flex;
+}
+.cubeRow.flipped {
+    flex-direction: row-reverse;
+}
+.cubeImage {
+    height: 61vh;
+    display: flex;
+    flex: 1;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+.cubeContent {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+.cubeTitle {
+    margin-bottom: 30px;
+    font-size: larger;
+}
+
+@media screen and (max-width: 767px) {
+    .cubeRow {
+        flex-wrap: wrap;
+    }
+    .cubeContent,
+    .cubeImage {
+        flex-basis: 100%;
+    }
+}

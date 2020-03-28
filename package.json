@@ -1,0 +1,48 @@
+{
+  "name": "ester",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.11.4",
+    "rc-footer": "^0.6.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-player": "^1.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-simple-video-player": "^1.0.0",
+    "redux": "^4.0.5",
+    "typescript": "^3.8.3",
+    "video-react": "^0.14.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-plugin-flowtype": "^4.7.0",
+    "html-loader": "^1.0.0",
+    "url-loader": "^4.0.0"
+  }
+}
