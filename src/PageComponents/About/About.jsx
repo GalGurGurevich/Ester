@@ -25,6 +25,7 @@ export default function About() {
                 laoreet rutrum. Nam sit amet porta nulla. Aenean laoreet quis sapien vitae elementum.
             </div>
             <Instaphoto image={images.seventh} image2={images.fifth} image3={images.sixth}></Instaphoto>
+            <br/>
         </>
     );
 }

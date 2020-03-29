@@ -43,7 +43,7 @@ export default function Home() {
                 </div>
             </div>
             <div className='FifthContainer'>
-                <Instaphoto image={images.seventh} image2={images.fifth} image3={images.sixth}></Instaphoto>
+                <Instaphoto image={images.sixth} image2={images.fifth} image3={images.seventh}></Instaphoto>
             </div>
             <div className='SixthContainer'>
                 <div className='cubeContactContent'>
