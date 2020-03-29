@@ -6,6 +6,7 @@ import images from '../../Theme/images';
 export default function About() {
     return (
         <>
+            <h2>Headline</h2>
             <div className='about-page-container'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales nunc ac elit varius rhoncus. Curabitur vitae dictum ante. Vivamus
                 maximus auctor felis pellentesque laoreet. Vestibulum efficitur dolor at massa congue dictum. Etiam eros diam, fringilla in magna
