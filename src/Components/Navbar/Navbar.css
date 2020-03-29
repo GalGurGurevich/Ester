@@ -63,13 +63,13 @@ nav.navbar .menu-toggle-ui {
     nav.navbar .menu-toggle-ui .fa-times {
         display: none;
     }
-    nav.navbar #menu-toggle:checked + .nav-list {
+    nav.navbar #menu-toggle:checked + label .nav-list {
         display: block;
     }
-    nav.navbar #menu-toggle:checked + .nav-list + .menu-toggle-ui .fa-bars {
+    nav.navbar #menu-toggle:checked + label .menu-toggle-ui .fa-bars {
         display: none;
     }
-    nav.navbar #menu-toggle:checked + .nav-list + .menu-toggle-ui .fa-times {
+    nav.navbar #menu-toggle:checked + label .menu-toggle-ui .fa-times {
         display: inline;
         position: fixed;
     }
