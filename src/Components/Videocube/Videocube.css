@@ -1,0 +1,10 @@
+.vidContainer {
+    flex-direction: column;
+}
+
+.video {
+    margin: 100px auto;
+    max-width: 40em;
+    /* display: flex;
+    flex: 1; */
+}

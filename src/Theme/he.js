@@ -19,4 +19,5 @@ export const heb = {
     contactmePhone: 'נייד:',
     contactmeMail: 'מייל:',
     contactmeContent: 'תוכן:',
+    aboutMeHeader: 'אסתר קפלן גורביץ',
 };
