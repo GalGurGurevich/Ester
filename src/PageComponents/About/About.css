@@ -6,8 +6,16 @@
     margin-bottom: 2em;
 }
 
+p {
+    padding: 1em 10em;
+}
+
 @media only screen and (max-width: 767px) {
     .about-page-container {
         text-align: right;
+    }
+
+    p {
+        padding: 0;
     }
 }
