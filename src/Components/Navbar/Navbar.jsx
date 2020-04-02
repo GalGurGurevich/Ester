@@ -13,7 +13,7 @@ export default function Navbar() {
                     <a className='horizontalLink' href='/about'>
                         מידע
                     </a>
-                    <a id="malito-A" className='horizontalLink' href="mailto:etigurevich@gmail.com">
+                    <a className='horizontalLink' href="mailto:etigurevich@gmail.com">
                         צור קשר
                     </a>
                 </div>
