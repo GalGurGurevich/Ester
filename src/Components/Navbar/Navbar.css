@@ -11,6 +11,13 @@ nav.navbar {
     pointer-events: none;
 }
 
+#malito-A {
+    color: #6700ee
+}#malito-A:hover {
+    background-color: #390db1;
+    color: white;
+}
+
 nav.navbar .nav-list a {
     padding: 0.5em 1em;
     text-decoration: none;
