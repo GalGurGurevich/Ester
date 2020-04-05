@@ -13,6 +13,8 @@ p {
 @media only screen and (max-width: 767px) {
     .about-page-container {
         text-align: right;
+        margin-right: 0.2em;
+        margin-left: 0.1em;
     }
 
     p {
