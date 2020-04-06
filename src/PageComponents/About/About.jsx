@@ -2,11 +2,8 @@ import React from 'react';
 import './About.css';
 import Instaphoto from '../../Components/Instaphoto/Instaphoto';
 import images from '../../Theme/images';
-import Videocube from '../../Components/Videocube/Videocube';
-import Vid from '../../Videos/Eti2Full-Small.mp4';
 import { heb } from '../../Theme/he';
 import AnimatedText from '../../Components/AnimatedText';
-import Carousel from '../../Components/Carousel/Carousel'
 
 export default function About() {
     return (
@@ -29,7 +26,6 @@ export default function About() {
                     turpis iaculis congue vitae sit amet orci. Sed a mollis turpis, imperdiet convallis dui. Nullam ornare mattis lorem. In facilisis,
                 </p>
             </div>
-            <Videocube video={Vid}></Videocube>
             <Instaphoto image={images.seventh} image2={images.fifth} image3={images.sixth}></Instaphoto>
             <br />
         </>
