@@ -11,14 +11,6 @@ nav.navbar {
     pointer-events: none;
 }
 
-/* .links {
-    pointer-events: none;
-} 
-
-.links.links-a + a {
-    text-decoration: underline overline;
-}  */
-
 a,
 a:link,
 a:active,
@@ -34,6 +26,15 @@ nav.navbar .nav-list a {
     transition-duration: 0.4s;
     display: inline-block;
     line-height: 1em;
+}
+
+nav.navbar .nav-list a.nav-link-hidden {
+    display: none;
+    pointer-events: none;
+}
+
+nav.navbar .nav-list a.nav-link-hidden.active + a {
+    color: white;
 }
 
 nav.navbar .nav-list a:hover {
