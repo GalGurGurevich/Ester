@@ -11,6 +11,14 @@ nav.navbar {
     pointer-events: none;
 }
 
+/* .links {
+    pointer-events: none;
+} 
+
+.links.links-a + a {
+    text-decoration: underline overline;
+}  */
+
 a,
 a:link,
 a:active,
@@ -48,6 +56,7 @@ nav.navbar .menu-toggle-ui {
 
         background: black;
         padding: 5em 0em;
+        z-index: 1;
     }
     nav.navbar .nav-list a {
         display: block;
@@ -69,15 +78,13 @@ nav.navbar .menu-toggle-ui {
     }
     nav.navbar .menu-toggle-ui .fa-times {
         display: none;
+        position: fixed;
+        z-index: 1;
     }
     nav.navbar #menu-toggle:checked + label .nav-list {
         display: block;
     }
-    nav.navbar #menu-toggle:checked + label .menu-toggle-ui .fa-bars {
-        display: none;
-    }
     nav.navbar #menu-toggle:checked + label .menu-toggle-ui .fa-times {
         display: inline;
-        position: fixed;
     }
 }

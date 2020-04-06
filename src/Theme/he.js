@@ -1,6 +1,6 @@
 export const heb = {
     bigText: 'ברוכים הבאים לאסתר קפלן',
-    title: 'קצת לגבי',
+    title: 'קצת על עצמי',
     smalltext: 'תוצאות מובטחות',
     subtitle: 'הגוף שלך - בדרך שלך',
     content:

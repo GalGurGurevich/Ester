@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar/Navbar';
 import About from './PageComponents/About/About.jsx';
 import Home from './PageComponents/Home';
 import ContactUs from './PageComponents/ContactUs/ContactUs.jsx';
+import Gallery from './PageComponents/Gallery/Gallery.jsx';
 
 class App extends React.Component {
     render() {
@@ -15,6 +16,9 @@ class App extends React.Component {
                 <div>
                     <Navbar />
                     <Switch>
+                        <Route path='/gallery'>
+                            <Gallery />
+                        </Route>
                         <Route path='/about'>
                             <About />
                         </Route>

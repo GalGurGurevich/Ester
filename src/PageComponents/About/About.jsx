@@ -6,6 +6,7 @@ import Videocube from '../../Components/Videocube/Videocube';
 import Vid from '../../Videos/Eti2Full-Small.mp4';
 import { heb } from '../../Theme/he';
 import AnimatedText from '../../Components/AnimatedText';
+import Carousel from '../../Components/Carousel/Carousel'
 
 export default function About() {
     return (

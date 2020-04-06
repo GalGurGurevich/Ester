@@ -1,0 +1,27 @@
+.caruselContainer {
+    display: flex;
+}
+
+.imgHolder {
+    flex: 1;
+    height: 50vh;
+}
+
+.caruselPic {
+    height: 100%;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.BrainhubCarousel__dots .BrainhubCarousel__dot:before {
+    background: white;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+    .caruselPic {
+        height: 90%;
+        width: 65%;
+        border-radius: 10px;
+    }
+}
