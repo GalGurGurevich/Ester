@@ -2,6 +2,7 @@ import React from 'react';
 import './Gallery.css';
 import Vid from '../../Videos/Eti2Full-Small.mp4';
 import Vid2 from '../../Videos/Eti3smaller.mp4';
+import Vid3 from '../../Videos/Eti-phone-video-Oneshot.mp4';
 import Carousel from '../../Components/Carousel/Carousel';
 import VidCarousel from '../../Components/Carousel/CarouselVideo';
 
@@ -15,7 +16,7 @@ const images = [image1, image2, image3, image4];
 export default function Gallery() {
     return (
         <div className='container'>
-            <VidCarousel videos={[Vid, Vid2]}></VidCarousel>
+            <VidCarousel videos={[Vid, Vid2, Vid3]}></VidCarousel>
             <br />
             <Carousel images={images} />
             <br />
