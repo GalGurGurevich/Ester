@@ -9,20 +9,12 @@ export default function Navbar() {
             <label htmlFor='menu-toggle'>
                 <div className='nav-list'>
                     <NavLink className='nav-link-hidden' to='/' exact></NavLink>
-                    <a className='horizontalLink' href='/'>
-                        בית
-                    </a>
+                    <a href='/'>בית</a>
                     <NavLink className='nav-link-hidden' to='/about' exact></NavLink>
-                    <a className='horizontalLink' href='/about'>
-                        מידע
-                    </a>
+                    <a href='/about'>מידע</a>
                     <NavLink className='nav-link-hidden' to='/gallery' exact></NavLink>
-                    <a className='horizontalLink' href='/gallery'>
-                        גלריה
-                    </a>
-                    <a className='horizontalLink' href='mailto:etigurevich@gmail.com'>
-                        צור קשר
-                    </a>
+                    <a href='/gallery'>גלריה</a>
+                    <a href='mailto:etigurevich@gmail.com'>צור קשר</a>
                 </div>
                 <span className='menu-toggle-ui'>
                     <i className='fa fa-times'></i>

@@ -11,13 +11,6 @@ nav.navbar {
     pointer-events: none;
 }
 
-.horizontalLink,
-.horizontalLink:link,
-.horizontalLink:active,
-.horizontalLink:visited {
-    color: #6700ee;
-}
-
 nav.navbar .nav-list a {
     padding: 0.5em 1em;
     text-decoration: none;

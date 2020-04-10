@@ -102,14 +102,7 @@
     color: white;
 }
 
-.tel-link,
-.tel-link:link,
-.tel-linkk:active,
-.tel-link:visited {
-    color: white;
-    text-decoration: none;
-}
-.tel-link:hover {
+.cubeContactContent a:hover {
     color: #6700ee;
 }
 

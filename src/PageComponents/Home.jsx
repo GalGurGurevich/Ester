@@ -50,12 +50,10 @@ export default function Home() {
                     <div className='cubeContactText'>
                         <div className='cubeContactTitle'>{heb.contactMe}</div>
                         <div className='cubeContactSubTitle'>
-                            <a className='tel-link' href='tel:+972503330622'>
-                                {heb.phone}
-                            </a>
+                            <a href='tel:+972503330622'>{heb.phone}</a>
                             <br />
                             <br />
-                            {heb.mail}
+                            <a href='mailto:etigurevich@gmail.com'>{heb.mail}</a>
                             <br />
                             <br />
                             <a href='https://www.facebook.com/eti.kaplan.5'>
