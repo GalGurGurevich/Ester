@@ -102,9 +102,15 @@
     color: white;
 }
 
-.tel-link {
-    color: white !important;
-    text-decoration: none !important;
+.tel-link,
+.tel-link:link,
+.tel-linkk:active,
+.tel-link:visited {
+    color: white;
+    text-decoration: none;
+}
+.tel-link:hover {
+    color: #6700ee;
 }
 
 .cubeContactTitle {

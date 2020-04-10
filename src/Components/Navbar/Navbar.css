@@ -11,10 +11,10 @@ nav.navbar {
     pointer-events: none;
 }
 
-a,
-a:link,
-a:active,
-a:visited {
+.horizontalLink,
+.horizontalLink:link,
+.horizontalLink:active,
+.horizontalLink:visited {
     color: #6700ee;
 }
 
