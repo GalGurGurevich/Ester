@@ -6,7 +6,7 @@ import './Carousel.css';
 export default function MyCarousel({ images }) {
     const imageChildren = (images || []).map(img => (
         <div className='imgHolder'>
-            <img className='caruselPic' src={img} />
+            <img className='caruselPic' src={img} alt="sports exercise" />
         </div>
     ));
 

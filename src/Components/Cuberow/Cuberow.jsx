@@ -11,7 +11,7 @@ export default function Cuberow({ image, title, subTitle, flip }) {
                 </div>
             </div>
             <div className='cubeImage'>
-                <img src={image} />
+                <img src={image} alt="a sports workout" />
             </div>
         </div>
     );

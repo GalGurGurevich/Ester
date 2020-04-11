@@ -45,22 +45,22 @@
 }
 
 .title {
-    font-size: 25px;
+    font-size: 1.5em;
     flex: 1;
 }
 
 .subTitle {
-    font-size: 15px;
-    margin: 15px;
+    font-size: 1em;
+    margin: 0.9em;
     flex: 1;
 }
 
 .content {
     flex: 2;
-    padding: 0px 200px;
+    padding: 0 12.5em;
 
     color: #737c88;
-    font-size: 12px;
+    font-size: 0.75em;
     letter-spacing: 2px;
 }
 
@@ -83,8 +83,8 @@
 }
 
 .secondContainerTitleText {
-    font-size: 20px;
-    margin: 60px 0;
+    font-size: 1.5em;
+    margin: 2.5em 0;
 }
 
 .video {
@@ -107,8 +107,8 @@
 }
 
 .cubeContactTitle {
-    margin-bottom: 50px;
-    font-size: 24px;
+    margin-bottom: 2.5em;
+    font-size: 1.4em;
 }
 
 #fIcon {
@@ -132,7 +132,7 @@
 
 .footer {
     direction: ltr;
-    margin-top: 10px;
+    margin-top: 0.2em;
     color: white;
 }
 
@@ -142,5 +142,9 @@
     }
     .content {
         padding: 0;
+    }
+    .bigText {
+        font-size: 7vmin;
+        margin: 2em 1em;
     }
 }
