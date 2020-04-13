@@ -15,9 +15,11 @@ export const heb = {
     contactMe: 'צור קשר',
     phone: '050-3330622',
     mail: 'etigurevich@gmail.com',
-    contactmeName: 'שם:',
-    contactmePhone: 'נייד:',
-    contactmeMail: 'מייל:',
-    contactmeContent: 'תוכן:',
     aboutMeHeader: 'אסתר קפלן גורביץ',
+    navHome: 'בית',
+    navInfo: 'מידע',
+    navGallery: 'גלריה',
+    navContact: 'צור קשר'
 };
+
+export default heb;

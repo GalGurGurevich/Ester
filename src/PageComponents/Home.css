@@ -21,7 +21,6 @@
     justify-content: center;
     width: 50%;
 
-    font-family: 'Times New Roman', Times, serif;
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -139,6 +138,7 @@
 @media only screen and (max-width: 767px) {
     .sideContainer {
         width: 100%;
+        background: none;
     }
     .content {
         padding: 0;

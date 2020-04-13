@@ -7,27 +7,29 @@ import { heb } from '../Theme/he';
 import { en } from '../Theme/en';
 import CubeRow from '../Components/Cuberow/Cuberow';
 import Instaphoto from '../Components/Instaphoto/Instaphoto';
+import { Text } from '../Languagecontext/language'
 
 export default function Home() {
+
     return (
         <div className='container'>
             <div className='FirstContainer'>
                 <div className='FirstMiddleContainer'>
                     <div className='sideContainer'>
-                        <div className='bigText'>{heb.bigText}</div>
-                        <div className='smallText'>{heb.smalltext}</div>
+                        <div className='bigText'><Text tid="bigText"/></div>
+                        <div className='smallText'><Text tid="smalltext"/></div>
                     </div>
                 </div>
                 <div className='AboutMeContainer'>
-                    <div className='title'>{heb.title}</div>
-                    <div className='subTitle'>{heb.subtitle}</div>
-                    <div className='content'>{heb.content}</div>
+                    <div className='title'><Text tid="title"/></div>
+                    <div className='subTitle'><Text tid="subtitle"/></div>
+                    <div className='content'><Text tid="content"/></div>
                 </div>
             </div>
             <div className='SecondContainer'>
                 <div className='secondContainerImage' />
                 <div className='secondContainerTitleContainer'>
-                    <div className='secondContainerTitleText'>{heb.whatIdo}</div>
+                    <div className='secondContainerTitleText'><Text tid="whatIdo"/></div>
                 </div>
             </div>
             <div className='ThirdContainer'>
@@ -48,16 +50,16 @@ export default function Home() {
             <div className='SixthContainer'>
                 <div className='cubeContactContent'>
                     <div className='cubeContactText'>
-                        <div className='cubeContactTitle'>{heb.contactMe}</div>
+                        <div className='cubeContactTitle'><Text tid="contactMe"/></div>
                         <div className='cubeContactSubTitle'>
-                            <a href='tel:+972503330622'>{heb.phone}</a>
+                            <a href='tel:+972503330622'><Text tid="phone"/></a>
                             <br />
                             <br />
                             <a href='mailto:etigurevich@gmail.com'>{heb.mail}</a>
                             <br />
                             <br />
                             <a href='https://www.facebook.com/eti.kaplan.5'>
-                                <img id='fIcon' src={images.fb1}></img>
+                                <img id='fIcon' src={images.fb1} alt="facebookIcon"></img>
                             </a>
                         </div>
                     </div>

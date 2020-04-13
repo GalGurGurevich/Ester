@@ -1,17 +1,19 @@
-import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import React from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import './App.css';
+import './App.css'
 
-import Navbar from './Components/Navbar/Navbar';
-import About from './PageComponents/About/About.jsx';
-import Home from './PageComponents/Home';
-import ContactUs from './PageComponents/ContactUs/ContactUs.jsx';
-import Gallery from './PageComponents/Gallery/Gallery.jsx';
+import Navbar from './Components/Navbar/Navbar'
+import About from './PageComponents/About/About.jsx'
+import Home from './PageComponents/Home'
+import ContactUs from './PageComponents/ContactUs/ContactUs.jsx'
+import Gallery from './PageComponents/Gallery/Gallery.jsx'
+import { LanguageProvider } from '../src/Languagecontext/language'
 
 class App extends React.Component {
     render() {
         return (
+        <LanguageProvider>
             <BrowserRouter>
                 <div>
                     <Navbar />
@@ -31,6 +33,7 @@ class App extends React.Component {
                     </Switch>
                 </div>
             </BrowserRouter>
+        </LanguageProvider>
         );
     }
 }

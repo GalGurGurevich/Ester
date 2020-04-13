@@ -1,9 +1,11 @@
-import React from 'react';
-import './About.css';
-import Instaphoto from '../../Components/Instaphoto/Instaphoto';
-import images from '../../Theme/images';
-import { heb } from '../../Theme/he';
-import AnimatedText from '../../Components/AnimatedText';
+import React from 'react'
+import './About.css'
+import Instaphoto from '../../Components/Instaphoto/Instaphoto'
+import images from '../../Theme/images'
+import { heb } from '../../Theme/he'
+import AnimatedText from '../../Components/AnimatedText'
+// import { Text } from '../../Languagecontext/language'
+
 
 export default function About() {
     return (
@@ -11,7 +13,6 @@ export default function About() {
             <h2>
                 <AnimatedText text={heb.aboutMeHeader} />
             </h2>
-            {/* <h2>{heb.aboutMeHeader}</h2> */}
             <div className='about-page-container'>
                 <p>בברכה לכל המתאמנים, אני בעלת תואר ראשון בחינוך גופני ממכללת 'וינגייט' בישראל, בעלת נסיון של עשור בתחום.</p>
                 <p>
@@ -28,7 +29,7 @@ export default function About() {
                     dignissim
                 </p>
             </div>
-            <Instaphoto image={images.seventh} image2={images.fifth} image3={images.sixth}></Instaphoto>
+                <Instaphoto image={images.seventh} image2={images.fifth} image3={images.sixth}></Instaphoto>
             <br />
         </>
     );
