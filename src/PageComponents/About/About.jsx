@@ -2,19 +2,20 @@ import React from 'react'
 import './About.css'
 import Instaphoto from '../../Components/Instaphoto/Instaphoto'
 import images from '../../Theme/images'
-import { heb } from '../../Theme/he'
 import AnimatedText from '../../Components/AnimatedText'
-// import { Text } from '../../Languagecontext/language'
-
+import { useLanguage } from '../../Languages/context'
 
 export default function About() {
+
+    const { translate } = useLanguage();
+
     return (
         <>
             <h2>
-                <AnimatedText text={heb.aboutMeHeader} />
+                <AnimatedText text={translate('aboutMeHeader')} />
             </h2>
             <div className='about-page-container'>
-                <p>בברכה לכל המתאמנים, אני בעלת תואר ראשון בחינוך גופני ממכללת 'וינגייט' בישראל, בעלת נסיון של עשור בתחום.</p>
+                <p>{translate('aboutMeFirstParagraph')}</p>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales nunc ac elit varius rhoncus. Curabitur vitae dictum ante.
                     Vivamus maximus auctor felis pellentesque laoreet. Vestibulum efficitur dolor at massa congue dictum. Etiam eros diam, fringilla

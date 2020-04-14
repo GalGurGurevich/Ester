@@ -1,4 +1,4 @@
-export const heb = {
+export default {
     bigText: 'ברוכים הבאים לאסתר קפלן',
     title: 'קצת על עצמי',
     smalltext: 'תוצאות מובטחות',
@@ -16,10 +16,11 @@ export const heb = {
     phone: '050-3330622',
     mail: 'etigurevich@gmail.com',
     aboutMeHeader: 'אסתר קפלן גורביץ',
+    aboutMeFirstParagraph: 'בברכה לכל המתאמנים, אני בעלת תואר ראשון בחינוך גופני ממכללת `וינגייט` בישראל, בעלת נסיון של עשור בתחום.',
     navHome: 'בית',
     navInfo: 'מידע',
     navGallery: 'גלריה',
-    navContact: 'צור קשר'
+    navContact: 'צור קשר',
+    footer: '©2020 by Esther Kaplan. Proudly created by GalGur'
 };
 
-export default heb;

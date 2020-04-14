@@ -1,4 +1,4 @@
-export const en = {
+export default {
     bigText: 'Welcome to Ester Kaplan',
     title: 'Bit about me',
     smalltext: 'Guaranteed Results',
@@ -16,11 +16,10 @@ export const en = {
     phone: '050-3330622',
     mail: 'etigurevich@gmail.com',
     aboutMeHeader: 'Ester Kaplan Gurevich',
+    aboutMeFirstParagraph: 'I to everyone...',
     navHome: 'home',
     navInfo: 'about',
     navGallery: 'gallery',
     navContact: 'contact me',
     footer: '©2020 by Esther Kaplan. Proudly created by GalGur'
 }
-
-export default en;

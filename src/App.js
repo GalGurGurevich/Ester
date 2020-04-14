@@ -8,7 +8,7 @@ import About from './PageComponents/About/About.jsx'
 import Home from './PageComponents/Home'
 import ContactUs from './PageComponents/ContactUs/ContactUs.jsx'
 import Gallery from './PageComponents/Gallery/Gallery.jsx'
-import { LanguageProvider } from '../src/Languagecontext/language'
+import { LanguageProvider } from '../src/Languages/context'
 
 class App extends React.Component {
     render() {
