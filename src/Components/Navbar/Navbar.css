@@ -11,6 +11,20 @@ nav.navbar {
     pointer-events: none;
 }
 
+.picker {
+    margin-right: auto;
+} 
+.picker.en {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 nav.navbar .nav-list a {
     padding: 0.5em 1em;
     text-decoration: none;

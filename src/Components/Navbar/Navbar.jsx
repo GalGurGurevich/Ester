@@ -6,7 +6,10 @@ import { useLanguage } from '../../Languages/context'
 
 export default function Navbar() {
 
-    const { translate } = useLanguage();
+    const { translate, language } = useLanguage();
+
+    let flag = false;
+    if(language !== "he") flag = true;
 
     return (
         <nav className='navbar'>
@@ -20,7 +23,7 @@ export default function Navbar() {
                     <NavLink className='nav-link-hidden' to='/gallery' exact></NavLink>
                     <a href='/gallery'>{translate('navGallery')}</a>
                     <a href='mailto:etigurevich@gmail.com'>{translate('navContact')}</a>
-                    <a><LanguagePicker /></a>
+                    <a className={`picker${!flag ? '' : ' en'}`}><LanguagePicker /></a>
                 </div>
                 <span className='menu-toggle-ui'>
                     <i className='fa fa-times'></i>

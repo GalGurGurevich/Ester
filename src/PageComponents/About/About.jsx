@@ -30,7 +30,7 @@ export default function About() {
                     dignissim
                 </p>
             </div>
-                <Instaphoto image={images.seventh} image2={images.fifth} image3={images.sixth}></Instaphoto>
+                <Instaphoto image={images.nine} image2={images.eight} image3={images.ten}></Instaphoto>
             <br />
         </>
     );

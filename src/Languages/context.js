@@ -8,7 +8,7 @@ export function useLanguage() { return useContext(LanguageContext); }
 
 export function LanguageProvider({ defaultLanguage, children }) {
   // Whenever the LanguageProvider is used, a defaultLanguage can be specified
-  // if it's missing, it is defined by the document, or defaults to english
+  // if it's missing, it is defined by the document, or defaults to hebrew
   const initialLanguage = localStorage.getItem('preferredLanguage') || defaultLanguage || document.documentElement.lang || 'he'
 
   // This useState is used to store the current language
