@@ -12,7 +12,7 @@ export function LanguageProvider({ defaultLanguage, children }) {
   const initialLanguage = localStorage.getItem('preferredLanguage') || defaultLanguage || document.documentElement.lang || 'he'
 
   // This useState is used to store the current language
-  const [language, setLanguage] = useState(initialLanguage in languages ? 'he': initialLanguage);
+  const [language, setLanguage] = useState(initialLanguage in languages ? initialLanguage : 'he');
 
   // This effect will be executed every time the language state changes
   useEffect(() => {
