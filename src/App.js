@@ -9,6 +9,7 @@ import Home from './PageComponents/Home'
 import ContactUs from './PageComponents/ContactUs/ContactUs.jsx'
 import Gallery from './PageComponents/Gallery/Gallery.jsx'
 import { LanguageProvider } from '../src/Languages/context'
+import ScrollToTopBtn from "./Components/ScrollButton/ScrollToTop";
 
 class App extends React.Component {
     render() {
@@ -31,6 +32,7 @@ class App extends React.Component {
                             <Home />
                         </Route>
                     </Switch>
+                    <ScrollToTopBtn />
                 </div>
             </BrowserRouter>
         </LanguageProvider>
