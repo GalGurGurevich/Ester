@@ -3,7 +3,6 @@ import './Navbar.css';
 import { NavLink } from 'react-router-dom';
 import LanguagePicker from '../LanguagePicker/LanguagePicker';
 import { useLanguage } from '../../Languages/context';
-import { Body } from 'glamorous';
 
 export default function Navbar() {
     const { translate, language } = useLanguage();
