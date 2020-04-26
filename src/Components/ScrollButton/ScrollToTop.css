@@ -8,12 +8,12 @@
 
 @keyframes fadeIn {
     from {
-      opacity: 0;
+        opacity: 0;
     }
     to {
-      opacity: 1;
+        opacity: 1;
     }
-  }
+}
 
 .BtnIconUp {
     position: relative;
@@ -22,8 +22,11 @@
     border-top: 9px solid transparent;
     border-right: 9px solid #6700ee;
     transform: rotate(220deg);
-}.BtnIconUp::after{
-    content: "";
+    margin-bottom: 0.3em;
+    margin-right: 0.3em;
+}
+.BtnIconUp::after {
+    content: '';
     position: absolute;
     border: 0 solid transparent;
     border-top: 3px solid #6700ee;
@@ -33,4 +36,19 @@
     width: 12px;
     height: 12px;
     transform: rotate(45deg);
+}
+.BtnIconUp:hover {
+  animation: animate 2s;
+  -moz-animation: animate 2s; /* Firefox */
+  -webkit-animation: animate 2s; /* Safari and Chrome */
+  -o-animation: animate 2s; /* Opera */
+}
+
+@keyframes animate {
+  from {
+      margin-bottom: 0.3em;
+  }
+  to {
+      margin-bottom: 0.5em;
+  }
 }

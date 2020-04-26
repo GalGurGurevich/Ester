@@ -35,6 +35,7 @@
     color: white;
 }
 
+
 .AboutMeContainer {
     display: flex;
     flex-direction: column;
@@ -120,7 +121,10 @@
 
 #fIcon:hover {
     opacity: 1;
+    /* animation: spin 4s linear infinite; */
 }
+
+/* @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } } */
 
 .lastContainerImage {
     height: 80vh;
