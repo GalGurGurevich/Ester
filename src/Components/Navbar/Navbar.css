@@ -1,3 +1,13 @@
+#textHome {
+    display: none;
+  }
+  #homeLink:hover #textHome {
+    display: inline-block;
+  }
+  #homeLink:hover #svgHouse {
+    display: none;
+  }
+
 nav.navbar {
     padding: 2em;
     letter-spacing: 1.5px;
@@ -33,6 +43,7 @@ nav.navbar .nav-list a {
     transition-duration: 0.4s;
     display: inline-block;
     line-height: 1em;
+    fill: #6700ee;
 }
 
 nav.navbar .nav-list a.nav-link-hidden {
@@ -42,6 +53,7 @@ nav.navbar .nav-list a.nav-link-hidden {
 
 nav.navbar .nav-list a.nav-link-hidden.active + a {
     color: white;
+    fill: white;
 }
 
 nav.navbar .nav-list a:hover {

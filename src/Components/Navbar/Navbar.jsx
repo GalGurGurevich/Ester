@@ -3,6 +3,7 @@ import './Navbar.css';
 import { NavLink } from 'react-router-dom';
 import LanguagePicker from '../LanguagePicker/LanguagePicker';
 import { useLanguage } from '../../Languages/context';
+import HouseIcon from './svg-icons/homeicon'
 
 export default function Navbar() {
     const { translate, language } = useLanguage();
@@ -21,7 +22,10 @@ export default function Navbar() {
             <label htmlFor='menu-toggle'>
                 <div className='nav-list'>
                     <NavLink className='nav-link-hidden' to='/' exact></NavLink>
-                    <a href='/'>{translate('navHome')}</a>
+                    <a id="homeLink" href='/'>
+                        <span id="svgHouse"><HouseIcon></HouseIcon></span>
+                        <span id="textHome">{translate('navHome')}</span>
+                    </a>
                     <NavLink className='nav-link-hidden' to='/about' exact></NavLink>
                     <a href='/about'>{translate('navInfo')}</a>
                     <NavLink className='nav-link-hidden' to='/gallery' exact></NavLink>
