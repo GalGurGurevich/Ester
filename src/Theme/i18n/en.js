@@ -17,6 +17,7 @@ export default {
     mail: 'etigurevich@gmail.com',
     aboutMeHeader: 'Ester Kaplan Gurevich',
     aboutMeFirstParagraph: 'I to everyone...',
+    aboutMeSecondParagraph: 'Lorem Ipsum Dolor...',
     navHome: 'home',
     navInfo: 'about',
     navGallery: 'gallery',

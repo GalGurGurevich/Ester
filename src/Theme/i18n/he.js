@@ -17,6 +17,7 @@ export default {
     mail: 'etigurevich@gmail.com',
     aboutMeHeader: 'אסתר קפלן גורביץ',
     aboutMeFirstParagraph: 'בברכה לכל המתאמנים, אני בעלת תואר ראשון בחינוך גופני ממכללת `וינגייט` בישראל, בעלת נסיון של עשור בתחום.',
+    aboutMeSecondParagraph: 'ניסיון רב מול כל הגילאים, החל מגיך הרך פעילויות מוטוריות, אימונים אישיים ועד אימוני אירובי לקבוצות גדולות הפעלות ימי הולדת ועוד..',
     navHome: 'בית',
     navInfo: 'מידע',
     navGallery: 'גלריה',

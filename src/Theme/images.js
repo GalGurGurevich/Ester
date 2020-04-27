@@ -10,5 +10,11 @@ export default {
     nine: require('../Images/two-women-doing-yoga.jpg'),
     ten: require('../Images/fitness-women-sports-gym.jpg'),
     fb: require('../Images/facebookicon.png'),
-    fb1: require('../Images/fb.png')
+    fb1: require('../Images/fb.png'),
+    etikidscube: require('../Images/etikidscube.jpg'),
+    etikidsspiral1: require('../Images/etikidsspiral1.jpg'),
+    etikidsspiral2: require('../Images/etikidsspiral2.jpg'),
+    etikidsspiral3: require('../Images/etikidsspiral3.jpg'),
+    etikidsedited: require('../Images/etikidsedited.jpg'),
+    etifitnesscubeedited: require('../Images/etifitnesscubeedited.jpg'),
 };

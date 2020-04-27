@@ -17,11 +17,7 @@ export default function About() {
             <div className='about-page-container'>
                 <p>{translate('aboutMeFirstParagraph')}</p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales nunc ac elit varius rhoncus. Curabitur vitae dictum ante.
-                    Vivamus maximus auctor felis pellentesque laoreet. Vestibulum efficitur dolor at massa congue dictum. Etiam eros diam, fringilla
-                    in magna porttitor, tincidunt eleifend libero. In vel ex arcu. In venenatis pellentesque dolor quis auctor. Curabitur ac arcu
-                    sodales, efficitur metus in, congue lacus. Aenean sit amet rutrum erat, facilisis volutpat lorem. Vestibulum cursus, urna nec
-                    dignissim
+                    {translate('aboutMeSecondParagraph')}
                 </p>
                 <p>
                     finibus, orci eros gravida tellus, vel sollicitudin ipsum metus id dui. Vivamus ut facilisis diam. Nullam egestas mauris urna, eu
@@ -30,7 +26,7 @@ export default function About() {
                     dignissim
                 </p>
             </div>
-                <Instaphoto image={images.nine} image2={images.eight} image3={images.ten}></Instaphoto>
+                <Instaphoto image={images.etikidsedited} image2={images.etikidsspiral1} image3={images.etikidsspiral2}></Instaphoto>
             <br />
         </>
     );

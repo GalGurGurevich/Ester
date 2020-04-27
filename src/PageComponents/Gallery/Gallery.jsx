@@ -7,9 +7,9 @@ import Carousel from '../../Components/Carousel/Carousel';
 import VidCarousel from '../../Components/Carousel/CarouselVideo';
 
 import image1 from '../../Images/leftinsta.jpg';
-import image2 from '../../Images/sports4eti.jpg';
-import image3 from '../../Images/pilatis4-effect.png';
-import image4 from '../../Images/pilatis2-effect.png';
+import image2 from '../../Images/etikidsspiral2.jpg';
+import image3 from '../../Images/etikidsspiral1.jpg';
+import image4 from '../../Images/etikidsspiral3.jpg';
 
 const images = [image1, image2, image3, image4];
 
