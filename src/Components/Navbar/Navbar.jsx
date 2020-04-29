@@ -21,19 +21,19 @@ export default function Navbar() {
             <input id='menu-toggle' type='checkbox' />
             <label htmlFor='menu-toggle'>
                 <div className='nav-list'>
-                    <NavLink className='nav-link-hidden' to='/' exact></NavLink>
-                    <a id="homeLink" href='/'>
-                        <span id="svgHouse"><HouseIcon></HouseIcon></span>
-                        <span id="textHome">{translate('navHome')}</span>
-                    </a>
-                    <NavLink className='nav-link-hidden' to='/about' exact></NavLink>
-                    <a href='/about'>{translate('navInfo')}</a>
-                    <NavLink className='nav-link-hidden' to='/gallery' exact></NavLink>
-                    <a href='/gallery'>{translate('navGallery')}</a>
-                    <a href='mailto:etigurevich@gmail.com'>{translate('navContact')}</a>
-                    <a className={`picker${!flag ? '' : ' en'}`}>
-                        <LanguagePicker />
-                    </a>
+                    <div>
+                        <NavLink className='nav-link-hidden' to='/' exact></NavLink>
+                        <a id="homeLink" href='/'>
+                            <HouseIcon></HouseIcon>
+                            <span>{translate('navHome')}</span>
+                        </a>
+                        <NavLink className='nav-link-hidden' to='/about' exact></NavLink>
+                        <a href='/about'>{translate('navInfo')}</a>
+                        <NavLink className='nav-link-hidden' to='/gallery' exact></NavLink>
+                        <a href='/gallery'>{translate('navGallery')}</a>
+                        <a href='mailto:etigurevich@gmail.com'>{translate('navContact')}</a>
+                    </div>
+                    <LanguagePicker />
                     {/* <a>
                         <button onClick={handleClick}>+/-</button>
                     </a> */}

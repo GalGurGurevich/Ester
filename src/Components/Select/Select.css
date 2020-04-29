@@ -1,0 +1,61 @@
+.Select {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.Select_toggle {
+    display: inline-block;
+    background-color: transparent;
+    padding: 0.3em 2em 0.3em 1em;
+    border: 1px solid currentColor;
+}
+.Select.open .Select_dropdown {
+    display: block;
+}
+.Select.open .Select_arrow {
+    border-bottom: 0.4em solid currentColor;
+    border-top: none;
+}
+
+.Select_dropdown {
+    display: none;
+    background-color: transparent;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.Select_arrow {
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    border-top: 0.4em solid currentColor;
+    position: absolute;
+    right: 0.6em;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Select_option {
+    background-color: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0.3em 1em;
+}
+.Select_option.selected,
+.Select_option:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+[dir=rtl] .Select_toggle {
+    padding: 0.3em 1em 0.3em 2em;
+}
+
+[dir=rtl] .Select_arrow {
+    left: 0.6em;
+    right: auto;
+}

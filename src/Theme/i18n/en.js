@@ -21,6 +21,6 @@ export default {
     navHome: 'home',
     navInfo: 'about',
     navGallery: 'gallery',
-    navContact: 'contact me',
+    navContact: 'contact',
     footer: '©2020 by Esther Kaplan. Proudly created by GalGur'
 }
