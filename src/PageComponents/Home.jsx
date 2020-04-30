@@ -34,7 +34,7 @@ export default function Home() {
             </div>
             <div className='ThirdContainer'>
                 <CubeRow image={images.first} title={translate('cubeTitle')} subTitle={translate('cubeSubTitle')} />
-                <CubeRow image={images.etifitnesscubeedited} title={translate('cubeTitle2')} subTitle={translate('cubeSubTitle2')} flip />
+                <CubeRow image={images.fourth} title={translate('cubeTitle2')} subTitle={translate('cubeSubTitle2')} flip />
                 <CubeRow image={images.etikidscube} title={translate('cubeTitle3')} subTitle={translate('cubeSubTitle3')} />
             </div>
             <div className='FourthContainer'>
