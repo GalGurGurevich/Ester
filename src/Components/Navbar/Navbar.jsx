@@ -6,15 +6,7 @@ import { useLanguage } from '../../Languages/context';
 import HouseIcon from './svg-icons/homeicon'
 
 export default function Navbar() {
-    const { translate, language } = useLanguage();
-
-    let flag = false;
-    if (language !== 'he') flag = true;
-
-    // const handleClick = () => {
-    //     let size = parseFloat(window.getComputedStyle(document.documentElement).fontSize * 1.2 + 'px');
-    //     document.documentElement.style.fontSize = size;
-    // };
+    const { translate } = useLanguage();
 
     return (
         <nav className='navbar'>
@@ -34,9 +26,6 @@ export default function Navbar() {
                         <a href='mailto:etigurevich@gmail.com'>{translate('navContact')}</a>
                     </div>
                     <LanguagePicker />
-                    {/* <a>
-                        <button onClick={handleClick}>+/-</button>
-                    </a> */}
                 </div>
                 <span className='menu-toggle-ui'>
                     <i className='fa fa-times'></i>
