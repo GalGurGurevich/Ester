@@ -3,7 +3,7 @@ export default {
     second: require('../Images/pilatis5-effect.png'),
     third: require('../Images/sports4eti.jpg'),
     fourth: require('../Images/pilatis4-effect.png'),
-    fifth: require('../Images/women-doing-pilates.jpg'),
+    fifth: require('../Images/etifitnesscubeedited.jpg'),
     sixth: require('../Images/darkpilates.jpg'),
     seventh: require('../Images/leftinsta.jpg'),
     eight: require('../Images/young-fitness-girl-running-up-the-stairs.jpg'),

@@ -39,6 +39,7 @@ img {
     .cubeContent,
     .cubeImage {
         flex-basis: 100%;
+        height: unset;
     }
 }
 

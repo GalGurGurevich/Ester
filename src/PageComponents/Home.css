@@ -142,7 +142,7 @@
 @media only screen and (max-width: 767px) {
     .sideContainer {
         width: 100%;
-        background: none;
+        background: rgba(0, 0, 0, 0.1);;
     }
     .content {
         padding: 0;
@@ -150,5 +150,8 @@
     .bigText {
         font-size: 7vmin;
         margin: 2em 1em;
+    }
+    .lastContainerImage {
+        height: 20vh;
     }
 }
