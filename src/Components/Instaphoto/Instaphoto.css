@@ -15,4 +15,8 @@
     .img {
         object-fit: cover;
     }
+    .ImgContainer .instgramPhoto {
+        height: 45vh;
+        margin: 0 10px;
+    }
 }

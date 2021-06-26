@@ -17,4 +17,5 @@ export default {
     etikidsspiral3: require('../Images/etikidsspiral3.jpg'),
     etikidsedited: require('../Images/etikidsedited.jpg'),
     etifitnesscubeedited: require('../Images/etifitnesscubeedited.jpg'),
+    outdoor: require('../Images/outdoor.jpg'),
 };
